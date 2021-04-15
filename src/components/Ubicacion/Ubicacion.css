@@ -1,0 +1,35 @@
+.ubicacion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-color: #0076ff;
+}
+
+.ubicacion-title {
+  color: #fff;
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+}
+
+.ubicacion-options {
+  display: flex;
+  justify-content: center;
+  height: 20%;
+}
+
+.ubicacion-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 30%;
+  border-radius: 50px;
+  background-color: #019254;
+  color: #fff;
+  outline: none;
+  font-size: 200%;
+  text-decoration: none;
+}
