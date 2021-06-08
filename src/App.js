@@ -38,7 +38,7 @@ const App = () => {
     }else{
       console.log(err)
     }
-  }, [ubicacion]);
+  }, [ubicacion,err]);
 
   useEffect(() => {
     localStorage.setItem('name', nombre);
@@ -51,7 +51,7 @@ const App = () => {
 
   const obtenerUbicacion = async (variableUbicacion) => {
     await guardarUbicacion(variableUbicacion);
-    await console.log(`Ubicacion Obtenida`);
+    // await console.log(ca);
   };
 
   const changeError = () => {
