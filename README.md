@@ -1,6 +1,6 @@
 # Para usar la aplicacion puedes ingresar en:
 
-https://clima-bfmlvlkeg-sergiocasallas.vercel.app/
+https://clima-phi.vercel.app/
 
 
 # Getting Started with Create React App
